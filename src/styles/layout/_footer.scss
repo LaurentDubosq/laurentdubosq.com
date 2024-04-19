@@ -1,0 +1,51 @@
+.footer-container {
+    text-align: center;
+
+    footer {
+        padding-top: 1.5625em;
+        padding-bottom: 1.5625em;
+
+        #scrollTop {
+          transition: 0.5s ease;
+
+             .fa-angle-up {
+                position: fixed;
+                bottom: 5vh;
+                right: 3vw;
+                width: 2.1875em;
+                height: 2.375em;
+                background: $color3;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: $color1;
+                border-radius: 0.375em;
+
+                @media screen and (min-width:500px) {
+                  width: 2.625em;
+                  height: 2.8125em;
+
+                }
+              }
+              
+             .fa-angle-up::before {
+                font-size: 1.7em;
+              }
+
+              @media screen and (min-width: 1000px) {
+                .footer .fa-angle-up {
+                  width: 2.625em;
+                  height: 2.8125em;
+                }
+              }
+        }
+
+        .scrollTopHidden {
+            opacity: 0;
+        }
+
+        .scrollTopVisible {
+            opacity: 1;
+        }
+    }
+}

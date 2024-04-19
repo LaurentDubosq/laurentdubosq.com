@@ -1,0 +1,158 @@
+.contact-container {
+
+    h2 {
+        &::after {
+            content: "soft & techniques";
+        }
+    }
+
+    h3 {
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5em;
+        gap: 2.8125em;
+
+        @media screen and (min-width: 950px) {
+            flex-direction: row;
+            gap: 5%;
+        }
+
+        .text {
+            flex: 1;
+
+            ul {
+                display: inline-block;
+                margin-top: 1.0937em;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+
+                @media screen and (min-width: 550px) {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 1fr 1fr;
+                }
+
+                li {
+                    margin-top: 0.9375em;
+                    margin-left: 3.125em;
+                    position: relative;
+                    line-height: normal;
+                    display: block;
+
+                    &:first-child {
+                        margin-top: 0;
+
+                        @media screen and (min-width: 550px) {
+                            margin-top: 0.9375em;
+
+                        }
+                    }
+
+                    &::before {
+                        font-family: "Font Awesome 6 Free";
+                        color: $color3;
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        left: -1.6em;
+                        font-size: 1.5625rem;
+                    }
+
+                    &:first-child::before {
+                        content: "\f007";
+                    }
+
+                    &:nth-child(2)::before {
+                        content: "\f3c5";
+                    }
+
+                    &:nth-child(3)::before {
+                        content: "\f095";
+                    }
+
+                    &:nth-child(4)::before {
+                        content: "\f0e0";
+                    }
+
+                    h4 {
+                        font-family: $font1;
+                        font-weight: 500;
+                    }
+        
+                    p {
+                        font-family: $font1;
+                        margin: 0;
+                        font-weight: normal;
+                    }
+
+                    &.email {
+                        .hyphens-man {
+                            @media screen and (min-width:400px) {
+                                hyphens: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .contact-form {
+            flex: 1;
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 1em;
+                margin-top: 0.625em;
+
+                @media screen and (min-width: 500px) {
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                }
+            }
+
+            input, textarea {
+                font-size: 1.0625rem;
+                border-radius: 0.375em;
+                border: 1px solid $color6;
+                padding: 0 0.9275em;
+                font-family: $font1;
+
+                @media screen and (min-width: 500px) {
+                    flex-basis: 100%;
+                }
+            }
+
+            input {
+                height: 2.6470em;
+
+                @media screen and (min-width: 500px) {
+
+                    &:first-child, &:nth-child(2) {
+                        flex: 1 1;
+                    }
+                }
+
+            }
+
+            textarea {
+                height: 8.5294em;
+                padding-top: 0.625em;
+                resize:vertical;
+                min-height: 5em;
+            }
+            
+            button {
+                margin-top:0;
+                font-size: 1.125rem;
+            }
+        }
+    }
+}

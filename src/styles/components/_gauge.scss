@@ -1,0 +1,43 @@
+.gauge-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 1.5625em;
+    transition: 0.3s ease;
+
+    &:hover {
+        transform: scale(1.02);
+    }
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+    &::before,
+    &::after {
+        content: "";
+        height: 0.3125em;
+        width: 100%;
+        position: absolute;
+        bottom: -0.625em;
+    }
+
+    &::before {
+        background: $color6;
+    }
+
+    &::after {
+        background: $color3;
+        width: var(--width);
+    }
+
+    h3 {
+        font-size: 1.125rem;
+        font-weight: 600;
+    }
+
+    .level {
+        display: flex;
+        align-items: center;
+    }
+}

@@ -1,0 +1,49 @@
+.skills-container {
+
+  h2 {
+    &::after {
+      content: "soft & techniques";
+    }
+  }
+
+  h3 {
+    @media screen and (min-width: 501px) {
+      font-size: 1.25rem;
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    gap: 2.1875em;
+
+    .mobile-container {
+      display: block;
+    }
+
+    .desktop-container {
+      display: none;
+    }
+
+    @media screen and (min-width: 800px) {
+      .mobile-container {
+        display: none;
+      }
+
+      .desktop-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 2.1875em;
+
+          .gauges {
+            flex : 1
+          }
+      }
+    }
+  }
+
+  form {
+    display: none;
+  }
+}

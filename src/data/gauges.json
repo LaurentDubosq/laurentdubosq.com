@@ -1,0 +1,134 @@
+[
+   {
+      "title": "Compétences techniques",
+      "id": "technical",
+      "skills": [
+         {
+            "title": "Vue.js (+ Certification Niveau 1)",
+            "level": "75"
+         },
+         {
+            "title": "Svelte.js",
+            "level": "65"
+         },
+         {
+            "title": "React.js (+ Badge Linkedin)",
+            "level": "65"
+         },
+         {
+            "title": "Javascript ES6+",
+            "level": "70"
+         },
+         {
+            "title": "CSS3/SASS/LESS",
+            "level": "75"
+         },
+         {
+            "title": "HTML 5",
+            "level": "80"
+         },
+         {
+            "title": "JSON & YAML / Consommation API REST",
+            "level": "65"
+         }
+      ]
+   },
+   {
+      "title": "Environnement de travail",
+      "id": "environment",
+      "skills": [
+         {
+            "title": "Git / Git Bash / Git Hub / Code Review",
+            "level": "65"
+         },
+         {
+            "title": "SCRUM / CI/CD",
+            "level": "65"
+         },
+         {
+            "title": "NPM / Vite / Webpack / Parcel / Babel / etc.",
+            "level": "65"
+         },
+         {
+            "title": "Visual Studio Code",
+            "level": "70"
+         },
+         {
+            "title": "Photoshop",
+            "level": "35"
+         },
+         {
+            "title": "Figma",
+            "level": "25"
+         }
+      ]
+   },
+   {
+      "title": "Notions",
+      "id": "notion",
+      "skills": [
+         {
+            "title": "Typescript",
+            "level": "35"
+         }
+      ]
+   },
+   {
+      "title": "Langues",
+      "id": "language",
+      "skills": [
+         {
+            "title": "Anglais B1/B2",
+            "level": "60"
+         }
+      ]
+   },
+   {
+      "title": "Intérêts",
+      "id": "interest",
+      "skills": [
+         {
+            "title": "Principes SOLID"
+         },
+         {
+            "title": "Clean Code"
+         },
+         {
+            "title": "CSR/SSR"
+         },
+         {
+            "title": "Nuxt.js"
+         }
+      ]
+   },
+   {
+      "title": "Mes certifications et badges",
+      "id": "certification",
+      "skills": [
+         {
+            "title": "Vue.js Developer Level 1 - 2024",
+            "titleLink" : "https://www.linkedin.com/in/laurent-dubosq-67b8a913a/",
+            "details": "Vue School",
+            "detailsLink": "https://certificates.dev/vuejs"
+         },
+         {
+            "title": "React Linkedin Badge - 2022",
+            "titleLink" : "https://www.linkedin.com/in/laurent-dubosq-67b8a913a/",
+            "details": "Linkedin",
+            "detailsLink": "https://www.linkedin.com/"
+         }
+      ]
+   },
+   {
+      "title": "Mon diplôme",
+      "id": "degree",
+      "skills": [
+         {
+            "title": "Développeur d'Application Multimédia (BAC +2) - 2009",
+            "titleLink": "https://www.linkedin.com/in/laurent-dubosq-67b8a913a/",
+            "details": "Centre de formation Doranco - Paris",
+            "detailsLink": "https://www.doranco.fr/"
+         }
+      ]
+   }
+]

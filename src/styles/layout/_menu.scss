@@ -1,0 +1,60 @@
+.menu-container {
+
+    .icon-container {
+        position: relative;
+        z-index: 1;
+
+        .menu-burger-handler {
+            font-size: 1.4375rem;
+            @media screen and (min-width: 800px) {
+                display: none;
+            }
+        }
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        top:0;
+        right: -100vw;
+        background: $color4;
+        font-size: 1.5625rem;
+        font-weight: 500;
+        padding-top: 5.6em;
+        gap: 1.6em;
+        transition: 0.25s ease;
+
+        a {
+            padding: 0.625em;
+            transition: 0.25s ease;
+
+            &:hover {
+                color: $color3;
+            }
+        }
+        
+        @media screen and (min-width: 800px) {
+            flex-direction: row;
+            height: auto;
+            width: auto;
+            position: initial;
+            background: transparent;
+            font-size: 1.125rem;
+            padding-top: 0;
+            gap: 1.3888em;
+
+            a {
+                padding: 0;
+            }
+        }
+    }
+
+    ul.showMenu {
+        right: 0;
+    }
+    
+}

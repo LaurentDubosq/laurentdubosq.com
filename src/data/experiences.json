@@ -1,0 +1,103 @@
+[
+
+    {
+        "companyAcronym" : "pbx",
+        "logo" : {
+            "url" : "https://www.laurentdubosq.com/img/photobox-logo.svg",
+            "alt" : "Logo Photobox"
+        },
+        "job": "Intégrateur Web",
+        "duration": "2010-2017",
+        "tasks" : [
+            "Intégration de parcours réguliers : intégration d'emails promotionnels + intégration des promotions sur les sites du groupe.",
+            "Intégration de parcours ciblés : intégration d'emails pour ciblage spécifique des clients avec offres promotionnelles sur mesure + mise en place de landing pages par duplication et adaptation des contenus et des feuilles de style.",
+            "Intégration de parcours événementiels : intégration d'emails pour événements spéciaux (fête des mères, ventes privées, etc.) + mise en place par duplication d'espaces dédiés à l'événement et adaptation des contenus, des feuilles de style et paramétrage du compteur d'expiration des offres événementielles.",
+            "Intégration des parcours automatiques : intégration des emails contractuels (confirmation de commande, expédition de commande, etc.) + intégration par duplication des landings pages et adaptation des contenus et des feuilles de style.",
+            "Expertise reconnue en intégration emailing + référent du groupe sur les questions emailing",
+            "Développement d'un projet de Content Management permettant au service marketing de construire leurs parcours promotionnels réguliers eux-mêmes.",
+            "Balisage d'images sur les sites par merchandising pour les opérations évenementielles",
+            "Plateforme employée : CMS interne embarquant les fonctionnalités de composant, versioning, channel et de branche dev/prod",
+            "Technologies employées : XHTML, CSS 1/2, Javascript (niveau débutant)",
+            "Spécialité développée : Intégration emailing",
+            "Skills développées : Aisance relationnelle, empathie, gestion du stress.",
+            "Logiciels employés : Sublime Text 2, Photoshop, Adobe Campaign (Neolane)"
+        ],
+        "url": {
+            "full" : "https://www.photobox.fr/",
+            "short" : "photobox.fr"
+        }
+    },
+    {
+        "companyAcronym" : "awk",
+        "logo" : {
+            "url" : "https://www.laurentdubosq.com/img/awakning-logo-white.png",
+            "alt" : "Logo Awakning Jewelry"
+        },
+        "job": "Entrepreneur",
+        "duration": "2017-2021",
+        "tasks" : [
+            "Création d’une marque de bijoux orientaux, son site e-commerce, sa présence sur les réseaux sociaux, ses publicités, dont le business model serait viable et dont les produits sont destinés à une clientèle d’un pays anglophone (USA)", 
+            "Acquisition des connaissances de base inhérentes aux métiers liés à la création d’une marque vendant sur le web (Aspect Juridique, Logistique, Marketing, Commercial, Product Management, Copywriting, UX, UI, Développement, SEO, etc.)",
+            "Technologies employées : HTML5, CSS3/SASS, Liquid template language, Javascript",
+            "Plateforme employée : CMS Shopify (fonctionnalités : composants, versioning)",
+            "Skills développées : Résilience, capacité à se remettre en cause et à apprendre.",
+            "Logiciels employés : Sublime Text 2, Photoshop"
+        ],
+        "url": {
+            "full" : "https://www.awakningjewelry.com/",
+            "short" : "awakningjewelry.com"
+        }
+    },
+    {
+        "companyAcronym" : "",
+        "logo" : {
+            "url" : "",
+            "alt" : ""
+        },
+        "job": "Développeur Front-End React.js",
+        "duration": "2022 (2 mois)",
+        "tasks" : [
+            "Intégration de mon portfolio en React.js from scratch à partir d'une maquette distribuée librement par CodingNepal", 
+            "Bibliothèque employée : React.js",
+            "Techniques employées : Hooks(useState, useEffect, useRef), Props, JSON + Consommation API REST, Flexbox, Grid, SASS, Media queries, REM/EM, SEO etc.",
+            "Plugins employées : emailJS",
+            "Technologies employées : Javascript ES6+, CSS3/SASS, HTML5",
+            "Méthode de développement : Mobile-first, StrictMode (React)",
+            "Skills développées : Rigueur et sens de la logique.",
+            "Logiciels employés : Visual Studio Code, Photoshop"
+        ],
+        "url": {
+            "full" : "",
+            "short" : "laurentdubosq.com"
+        }
+    },
+    {
+        "companyAcronym" : "dkt",
+        "logo" : {
+            "url" : "https://www.laurentdubosq.com/img/decathlon-logo.svg",
+            "alt" : "Logo Decathlon"
+        },
+        "job": "Développeur Front-End Svelte.js",
+        "duration": "2022-2023 (4 mois - Belgique)",
+        "tasks" : [
+            "Mise en place de features avec la librairie Svelte.js (Menu-Aim, AB tests : Suggestion historique de recherche, ATC CTA sticky, etc)",
+            "Adaptation à un environnement complexe en termes d’outils. Multiples CMS internes et externe (Strapi), Git repositories, environnements local/pré-prod/éphémère, outils de gestion des contenus multilingue phrase/i18n, multiples librairies CSS (LESS/Tailwind), environnement GCP/Kubernetes/Oracle.",
+            "Corrections de bugs",
+            "Code reviews (GitHub)",
+            "Documentation JS Doc (JSDoc 3)",
+            "Bibliothèque employée : Svelte.js",
+            "Techniques employées : Props, Déclaration réactive, Instruction réactive, Store & context, Event dispatch/forwarding, onMount/onDestroy, Slot",
+            "Technologies employées : Javascript ES6+, JSON, LESS, Tailwind, HTML5, CSS3",
+            "Plateforme employée : CMS Strapi + CMS internes",
+            "Logiciels employés : Visual Studio Code, Slack",
+            "Outil de versioning : Git Bash / Git Hub",
+            "Outil de ticketing : Jira",
+            "Méthodologie de travail : Scrum, CI/CD, code review, tests fonctionnels",
+            "Skills développées : Adaptation à un environnement logiciel parfois complexe, capacité à se concentrer en travail en Open Space"
+        ],
+        "url": {
+            "full" : "https://www.decathlon.be",
+            "short" : "decathlon.be"
+        }
+    }
+  ]

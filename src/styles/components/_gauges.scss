@@ -1,0 +1,18 @@
+.gauges {
+  display: flex;
+  flex-direction: column;
+  gap: 2.1875em;
+
+  ul {
+    margin-top: 0.5263em;
+    margin-bottom: 0.625em;
+  }
+
+  & div > p {
+    margin-top: 0.5263em;
+  }
+
+  & div > p .company {
+    font-size: 0.9rem;
+  }
+}
