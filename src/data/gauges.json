@@ -88,13 +88,10 @@
       "id": "interest",
       "skills": [
          {
-            "title": "Principes SOLID"
+            "title": "Principes DRY, KISS, YAGNI, SOLID, Clean Code"
          },
          {
-            "title": "Clean Code"
-         },
-         {
-            "title": "CSR/SSR"
+            "title": "SPA/SSR/SSG/SWR/ISR, Server-Only Components"
          },
          {
             "title": "Nuxt.js"
