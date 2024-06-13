@@ -22,9 +22,11 @@
             "Skills développées : Aisance relationnelle, empathie, gestion du stress.",
             "Logiciels employés : Sublime Text 2, Photoshop, Adobe Campaign (Neolane)"
         ],
-        "url": {
-            "full" : "https://www.photobox.fr/",
-            "short" : "photobox.fr"
+        "links": {
+            "project" : {
+                "url" : "https://photobox.fr",
+                "title" : "photobox.fr"
+            }
         }
     },
     {
@@ -45,9 +47,11 @@
             "Logiciels employés : Sublime Text 2, Photoshop",
             "Skills développées : Résilience, capacité à se remettre en cause et à apprendre."
         ],
-        "url": {
-            "full" : "https://www.awakningjewelry.com/",
-            "short" : "awakningjewelry.com"
+        "links": {
+            "project" : {
+                "url" : "https://awakningjewelry.com",
+                "title" : "awakningjewelry.com"
+            }
         }
     },
     {
@@ -70,12 +74,17 @@
             "Font Icon : Font-Awesome",
             "Méthode de développement : Mobile-first.",
             "Logiciels employés : Visual Studio Code, Photoshop.",
-            "Skills développées : Rigueur et sens de la logique.",
-            "Github : github.com/LaurentDubosq/laurentdubosq"
-        ],
-        "url": {
-            "full" : "",
-            "short" : "laurentdubosq.com"
+            "Skills développées : Rigueur et sens de la logique."
+        ],        
+        "links": {
+            "project" : {
+                "url" : "https://laurentdubosq.com",
+                "title" : "laurentdubosq.com"
+            },
+            "repository" : {
+                "url" : "https://github.com/LaurentDubosq/laurentdubosq",
+                "title" : "github.com/LaurentDubosq/laurentdubosq"
+            }
         }
     },
     {
@@ -104,9 +113,11 @@
             "Système d’exploitation utilisé pour le développement : Mac OSX.",
             "Skills développées : Adaptation à un environnement logiciel parfois complexe, capacité à se concentrer en travail en Open Space"
         ],
-        "url": {
-            "full" : "https://www.decathlon.be",
-            "short" : "decathlon.be"
+        "links": {
+            "project" : {
+                "url" : "https://decathlon.be",
+                "title" : "decathlon.be"
+            }
         }
     },
     {
@@ -129,12 +140,17 @@
             "Méthode de développement : Mobile-first.",
             "Principes de développement : DRY, KISS, YAGNI, SOLID, Clean Code.",
             "Logiciels employés : Visual Studio Code, Photoshop, Google Doc.",
-            "Méthodologies : tests unitaires, tests intégrations, tests composants, tests end-to-end.",
-            "Github : github.com/LaurentDubosq/awakningjewelry"
-        ],
-        "url": {
-            "full" : "https://www.awakningjewelry.com/",
-            "short" : "awakningjewelry.com"
+            "Méthodologies : tests unitaires, tests intégration, tests composant, tests end-to-end."
+        ],         
+        "links": {
+            "project" : {
+                "url" : "https://www.awakningjewelry.com/",
+                "title" : "awakningjewelry.com"
+            },
+            "repository" : {
+                "url" : "https://github.com/LaurentDubosq/awakningjewelry",
+                "title" : "github.com/LaurentDubosq/awakningjewelry"
+            }
         }
     }
   ]

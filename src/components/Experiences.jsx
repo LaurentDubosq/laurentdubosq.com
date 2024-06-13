@@ -37,6 +37,7 @@ const Experiences = () => {
       mode: "cors",
     })
       .then((res) => res.json())
+      .then((data) => data.reverse())
       .then((data) => setExperiences(data))
       .catch(() => {
         sendEmail();
@@ -72,18 +73,26 @@ const Experiences = () => {
                       return <li key={index}>{task}</li>;
                     })}
                   </ul>
-                  {experience.url.full ? (
+                  
+                  {experience.links.repository && (
                     <a
-                      href={experience.url.full}
+                      href={experience.links.repository.url}
                       className="txt-primary"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      {experience.url.short}
+                      Repository : <span style={{wordBreak: "break-all"}}>{experience.links.repository.title}</span>
                     </a>
-                  ) : (
-                    <a href="/" className="txt-primary">
-                      {experience.url.short}
+                  )}
+
+                  {experience.links.project && (
+                    <a
+                      href={experience.links.project.url}
+                      className="txt-primary"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Website : <span style={{wordBreak: "break-all"}}>{experience.links.project.title}</span>
                     </a>
                   )}
                 </li>
