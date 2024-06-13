@@ -36,12 +36,14 @@
         "job": "Entrepreneur",
         "duration": "2017-2021",
         "tasks" : [
-            "Création d’une marque de bijoux orientaux, son site e-commerce, sa présence sur les réseaux sociaux, ses publicités, dont le business model serait viable et dont les produits sont destinés à une clientèle d’un pays anglophone (USA)", 
-            "Acquisition des connaissances de base inhérentes aux métiers liés à la création d’une marque vendant sur le web (Aspect Juridique, Logistique, Marketing, Commercial, Product Management, Copywriting, UX, UI, Développement, SEO, etc.)",
-            "Technologies employées : HTML5, CSS3/SASS, Liquid template language, Javascript",
+            "Création d’une boutique en ligne à l’aide du CMS e-commerce Shopify. Développement de composant, mise en place de script, de logiques d’affichage, le tout en Liquid (langage back-end de template développé par Shopify - proche Twig).",
+            "Features en Liquid : développement composant CrossSelling, développement de scripts (estimation délais de livraison, conversion réduction de prix en pourcentage). Conditionnement d’affichage de contenus (promotions membres, message livraison gratuite, meta-données SEO, téléchargement de factures, bouton suivis de colis).",
+            "Feature en dur :  développement composant AboutUs, SizeChart, DeliveryInformations, GuaranteeInformations.",
+            "Autres tâches : Conception et intégration logo, page About Us. Choix navigation et composants en considérant l’UX. Refonte UI template page produit. Intégration de plugins (RGPD, Cookie Bar, Notification Bar, FAQ, Factures, Tracking Colis, Customer Review). Conception/retouche/montage de Visuels (Hero, photos produit). Mise en place tracking Google Analytics et Facebook Pixel. Mise en conformité RGPD (ajout mentions, checkboxes, cookie bar, panneau gestion data RGPD, factures espace client). Uniformisation strucutre emailings.",
+            "Langages : Liquid, Javascript, SASS, CSS3, HTML5.",
             "Plateforme employée : CMS Shopify (fonctionnalités : composants, versioning)",
-            "Skills développées : Résilience, capacité à se remettre en cause et à apprendre.",
-            "Logiciels employés : Sublime Text 2, Photoshop"
+            "Logiciels employés : Sublime Text 2, Photoshop",
+            "Skills développées : Résilience, capacité à se remettre en cause et à apprendre."
         ],
         "url": {
             "full" : "https://www.awakningjewelry.com/",
@@ -57,14 +59,19 @@
         "job": "Développeur Front-End React.js",
         "duration": "2022 (2 mois)",
         "tasks" : [
-            "Intégration de mon portfolio en React.js from scratch à partir d'une maquette distribuée librement par CodingNepal", 
-            "Bibliothèque employée : React.js",
-            "Techniques employées : Hooks(useState, useEffect, useRef), Props, JSON + Consommation API REST, Flexbox, Grid, SASS, Media queries, REM/EM, SEO etc.",
-            "Plugins employées : emailJS",
-            "Technologies employées : Javascript ES6+, CSS3/SASS, HTML5",
-            "Méthode de développement : Mobile-first, StrictMode (React)",
+            "Intégration en React.js de mon portfolio.",
+            "Environnement d’écriture React.js : Hooks avec Functional Components, JSX, StrictMode.",
+            "Features développées : Header, Footer, Logo, Menu, Hero, About, Experiences, Skills, Contact.",
+            "Script JS développé : écriture animé des spécialisations front-end",
+            "Techniques React.js employées : useState/useEffect/useRef,  ref, props, events.",
+            "Méthodes JS employées : addEventListener, map, filter, slice, join, textContent, scrollY, setInterval, fetch, then, catch, reset.",
+            "Stack Front-end : React, SASS, JSON-Server, Axios, EmailJS.",
+            "Langages : Javascript ES6+, JSON, SASS, CSS3, HTML5.",
+            "Font Icon : Font-Awesome",
+            "Méthode de développement : Mobile-first.",
+            "Logiciels employés : Visual Studio Code, Photoshop.",
             "Skills développées : Rigueur et sens de la logique.",
-            "Logiciels employés : Visual Studio Code, Photoshop"
+            "Github : github.com/LaurentDubosq/laurentdubosq"
         ],
         "url": {
             "full" : "",
@@ -80,24 +87,54 @@
         "job": "Développeur Front-End Svelte.js",
         "duration": "2022-2023 (4 mois - Belgique)",
         "tasks" : [
-            "Mise en place de features avec la librairie Svelte.js (Menu-Aim, AB tests : Suggestion historique de recherche, ATC CTA sticky, etc)",
-            "Adaptation à un environnement complexe en termes d’outils. Multiples CMS internes et externe (Strapi), Git repositories, environnements local/pré-prod/éphémère, outils de gestion des contenus multilingue phrase/i18n, multiples librairies CSS (LESS/Tailwind), environnement GCP/Kubernetes/Oracle.",
-            "Corrections de bugs",
-            "Code reviews (GitHub)",
-            "Documentation JS Doc (JSDoc 3)",
-            "Bibliothèque employée : Svelte.js",
-            "Techniques employées : Props, Déclaration réactive, Instruction réactive, Store & context, Event dispatch/forwarding, onMount/onDestroy, Slot",
-            "Technologies employées : Javascript ES6+, JSON, LESS, Tailwind, HTML5, CSS3",
-            "Plateforme employée : CMS Strapi + CMS internes",
-            "Logiciels employés : Visual Studio Code, Slack",
-            "Outil de versioning : Git Bash / Git Hub",
-            "Outil de ticketing : Jira",
-            "Méthodologie de travail : Scrum, CI/CD, code review, tests fonctionnels",
+            "Mise en place de features et AB tests, refactorisation, corrections de bugs avec la librairie Svelte.js pour les sites Belgique et Luxembourg afin d’améliorer les parcours utilisateurs.",
+            "Features développées : Menu-Aim (+ écriture JS-Doc), Filtres additionnels, Extra Search Suggestion (en AB test), Positionnements multiples CTA “Add to Cart” sur mobile (AB test).",
+            "User stories classqiues : remplacement logo, débogage datepicker, débogage tracking google analytics, amélioration UX lors de la sélection d’une taille unique, etc.",
+            "Refactorisation : des CSS de la galerie d’images des pages produits.",
+            "Stack Front-end : Svelte.js, Webpack, LESS, ESLint, Prettier, etc.",
+            "Langages : Javascript ES6+, JSON, LESS, Tailwind, CSS3, HTML5.",
+            "Design System : Vitamin.",
+            "Méthode de développement : Mobile-first.",
+            "Principes de développement : DRY, KISS, YAGNI, SOLID, Clean Code.",
+            "Méthodologies : Scrum, CI/CD, code reviews, tests manuels fonctionnels.",
+            "CMS & Solutions : Strapi, Phrase.",
+            "Outils collaboratifs : Jira, Slack, Confluence, GitHub, Figma.",
+            "Infrastructure : AWS, GCP, Azure, Oracle, Docker, Kubernetes, Git, GitHub Actions.",
+            "Logiciels employés : Visual Studio Code.",
+            "Système d’exploitation utilisé pour le développement : Mac OSX.",
             "Skills développées : Adaptation à un environnement logiciel parfois complexe, capacité à se concentrer en travail en Open Space"
         ],
         "url": {
             "full" : "https://www.decathlon.be",
             "short" : "decathlon.be"
+        }
+    },
+    {
+        "companyAcronym" : "awk",
+        "logo" : {
+            "url" : "https://www.laurentdubosq.com/img/awakning-logo-white.png",
+            "alt" : "Logo Awakning Jewelry"
+        },
+        "job": "Développeur Front-End Vue.js",
+        "duration": "2024",
+        "tasks" : [
+            "Recodage intégrale du Front-end e-commerce précédemment mis en place avec le CMS Shopify en une application Vue.js SPA : choix de la stack, développement des features, développement des tests (unitaire, composant, E2E), déploiement.",
+            "Environnement d’écriture Vue.js : Composition API, SFC, Typescript (Strict), Styles SASS (scoped/unscoped).",
+            "Features développées : Site Header, Site Nav, Site Logo, Burger Menu, Dropdown Menu, etc.",
+            "Stack Front-end : Vue.js, Vite, Vitest, Vue Test Utils, Vue-router, Typescript, Json-Server, Git, SASS, JSDOM, etc.",
+            "Plateforme collaborative : GitHub.",
+            "Langages : Javascript ES6+, JSON, SASS, CSS3, HTML5.",
+            "Convention de nommage CSS : BEM.",
+            "Design system : Polaris (pour les icônes).",
+            "Méthode de développement : Mobile-first.",
+            "Principes de développement : DRY, KISS, YAGNI, SOLID, Clean Code.",
+            "Logiciels employés : Visual Studio Code, Photoshop, Google Doc.",
+            "Méthodologies : tests unitaires, tests intégrations, tests composants, tests end-to-end.",
+            "Github : github.com/LaurentDubosq/awakningjewelry"
+        ],
+        "url": {
+            "full" : "https://www.awakningjewelry.com/",
+            "short" : "awakningjewelry.com"
         }
     }
   ]
