@@ -57,8 +57,8 @@ const Hero = () => {
             Me recruter
           </a>
           <a
-            href="https://www.laurentdubosq.com/files/cv-laurent-dubosq-developpeur-front-end-svelte-react-vue.pdf"
-            download="cv-laurent-dubosq-developpeur-front-end-svelte-react-vue.pdf"
+            href="https://www.laurentdubosq.com/files/cv-laurent-dubosq-developpeur-front-end-vue-svelte-react.pdf"
+            download="cv-laurent-dubosq-developpeur-front-end-vue-svelte-react.pdf"
             target="_blank"
             rel="noreferrer"
             className="btn btn-off"
