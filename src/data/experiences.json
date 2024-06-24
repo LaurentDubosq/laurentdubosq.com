@@ -105,7 +105,7 @@
             "Design System : Vitamin.",
             "Méthode de développement : Mobile-first.",
             "Principes de développement : DRY, KISS, YAGNI, SOLID, Clean Code.",
-            "Méthodologies : Scrum, CI/CD, code reviews, tests manuels fonctionnels.",
+            "Méthodologies : Scrum, CI/CD, code reviews, tests manuels.",
             "CMS & Solutions : Strapi, Phrase.",
             "Outils collaboratifs : Jira, Slack, Confluence, GitHub, Figma.",
             "Infrastructure : AWS, GCP, Azure, Oracle, Docker, Kubernetes, Git, GitHub Actions.",
@@ -129,7 +129,7 @@
         "job": "Développeur Front-End Vue.js",
         "duration": "2024",
         "tasks" : [
-            "Recodage intégrale du Front-end e-commerce précédemment mis en place avec le CMS Shopify en une application Vue.js SPA : choix de la stack, développement des features, développement des tests (unitaire, composant, E2E), déploiement.",
+            "Recodage intégrale du Front-end e-commerce précédemment mis en place avec le CMS Shopify en une application Vue.js SPA : choix de la stack, développement des features, développement des tests (unitaire, intégration, composant), déploiement.",
             "Environnement d’écriture Vue.js : Composition API, SFC, Typescript (Strict), Styles SASS (scoped/unscoped).",
             "Features développées : Site Header, Site Nav, Site Logo, Burger Menu, Dropdown Menu, etc.",
             "Stack Front-end : Vue.js, Vite, Vitest, Vue Test Utils, Vue-router, Typescript, Json-Server, Git, SASS, JSDOM, etc.",

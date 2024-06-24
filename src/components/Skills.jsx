@@ -5,8 +5,8 @@ import emailjs from "@emailjs/browser";
 const Skills = () => {
   const [data, setData] = useState([]);
   const form = useRef();
-  const leftColumnCategories = ["technical", "environment"]
-  const rightColumnCategories = ["notion", "language", "interest", "certification", "degree"]
+  const leftColumnCategories = ["libraries", "dependencies", "languages", "preprocessor", "versioning", "internationalization-tools", "collaborative-tools"]
+  const rightColumnCategories = ["sofwares", "cms", "marketing-tools", "methodologies", "css-convention", "principles", "environments", "design-systems", "interest", "language", "certification", "degree"]
 
   const leftColumnData = data.filter(dataCategory => leftColumnCategories.includes(dataCategory.id))
   const RighColumnData = data.filter(dataCategory => rightColumnCategories.includes(dataCategory.id))
