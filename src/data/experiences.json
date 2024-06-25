@@ -35,7 +35,7 @@
             "url" : "https://www.laurentdubosq.com/img/awakning-logo-white.png",
             "alt" : "Logo Awakning Jewelry"
         },
-        "job": "Entrepreneur",
+        "job": "Entrepreneur Web",
         "duration": "2017-2021",
         "tasks" : [
             "Création d’une boutique en ligne à l’aide du CMS e-commerce Shopify. Développement de composant, mise en place de script, de logiques d’affichage, le tout en Liquid (langage back-end de template développé par Shopify - proche Twig).",
