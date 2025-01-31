@@ -1,156 +1,140 @@
 [
-
-    {
-        "companyAcronym" : "pbx",
-        "logo" : {
-            "url" : "https://www.laurentdubosq.com/img/photobox-logo.svg",
-            "alt" : "Logo Photobox"
-        },
-        "job": "Intégrateur Web",
-        "duration": "2010-2017",
-        "tasks" : [
-            "Intégration de parcours réguliers : intégration d'emails promotionnels + intégration des promotions sur les sites du groupe.",
-            "Intégration de parcours ciblés : intégration d'emails pour ciblage spécifique des clients avec offres promotionnelles sur mesure + mise en place de landing pages par duplication et adaptation des contenus et des feuilles de style.",
-            "Intégration de parcours événementiels : intégration d'emails pour événements spéciaux (fête des mères, ventes privées, etc.) + mise en place par duplication d'espaces dédiés à l'événement et adaptation des contenus, des feuilles de style et paramétrage du compteur d'expiration des offres événementielles.",
-            "Intégration des parcours automatiques : intégration des emails contractuels (confirmation de commande, expédition de commande, etc.) + intégration par duplication des landings pages et adaptation des contenus et des feuilles de style.",
-            "Expertise reconnue en intégration emailing + référent du groupe sur les questions emailing",
-            "Développement d'un projet de Content Management permettant au service marketing de construire leurs parcours promotionnels réguliers eux-mêmes.",
-            "Balisage d'images sur les sites par merchandising pour les opérations évenementielles",
-            "Plateforme employée : CMS interne embarquant les fonctionnalités de composant, versioning, channel et de branche dev/prod",
-            "Technologies employées : XHTML, CSS 1/2, Javascript (niveau débutant)",
-            "Spécialité développée : Intégration emailing",
-            "Skills développées : Aisance relationnelle, empathie, gestion du stress.",
-            "Logiciels employés : Sublime Text 2, Photoshop, Adobe Campaign (Neolane)"
-        ],
-        "links": {
-            "project" : {
-                "url" : "https://photobox.fr",
-                "title" : "photobox.fr"
-            }
-        }
+  {
+    "companyAcronym": "pbx",
+    "logo": {
+      "url": "https://www.laurentdubosq.com/img/photobox-logo.svg",
+      "alt": "Logo Photobox"
     },
-    {
-        "companyAcronym" : "awk",
-        "logo" : {
-            "url" : "https://www.laurentdubosq.com/img/awakning-logo-white.png",
-            "alt" : "Logo Awakning Jewelry"
-        },
-        "job": "Entrepreneur Web",
-        "duration": "2017-2021",
-        "tasks" : [
-            "Création d’une boutique en ligne à l’aide du CMS e-commerce Shopify. Développement de composant, mise en place de script, de logiques d’affichage, le tout en Liquid (langage back-end de template développé par Shopify - proche Twig).",
-            "Features en Liquid : développement composant CrossSelling, développement de scripts (estimation délais de livraison, conversion réduction de prix en pourcentage). Conditionnement d’affichage de contenus (promotions membres, message livraison gratuite, meta-données SEO, téléchargement de factures, bouton suivis de colis).",
-            "Feature en dur :  développement composant AboutUs, SizeChart, DeliveryInformations, GuaranteeInformations.",
-            "Autres tâches : Conception et intégration logo, page About Us. Choix navigation et composants en considérant l’UX. Refonte UI template page produit. Intégration de plugins (RGPD, Cookie Bar, Notification Bar, FAQ, Factures, Tracking Colis, Customer Review). Conception/retouche/montage de Visuels (Hero, photos produit). Mise en place tracking Google Analytics et Facebook Pixel. Mise en conformité RGPD (ajout mentions, checkboxes, cookie bar, panneau gestion data RGPD, factures espace client). Uniformisation strucutre emailings.",
-            "Langages : Liquid, Javascript, SASS, CSS3, HTML5.",
-            "Plateforme employée : CMS Shopify (fonctionnalités : composants, versioning)",
-            "Logiciels employés : Sublime Text 2, Photoshop",
-            "Skills développées : Résilience, capacité à se remettre en cause et à apprendre."
-        ],
-        "links": {
-            "project" : {
-                "url" : "https://awakningjewelry.com",
-                "title" : "awakningjewelry.com"
-            }
-        }
-    },
-    {
-        "companyAcronym" : "",
-        "logo" : {
-            "url" : "",
-            "alt" : ""
-        },
-        "job": "Développeur Front-End React.js",
-        "duration": "2022 (2 mois)",
-        "tasks" : [
-            "Intégration en React.js de mon portfolio.",
-            "Environnement d’écriture React.js : Hooks avec Functional Components, JSX, StrictMode.",
-            "Features développées : Header, Footer, Logo, Menu, Hero, About, Experiences, Skills, Contact.",
-            "Script JS développé : écriture animé des spécialisations front-end",
-            "Techniques React.js employées : useState/useEffect/useRef,  ref, props, events.",
-            "Méthodes JS employées : addEventListener, map, filter, slice, join, textContent, scrollY, setInterval, fetch, then, catch, reset.",
-            "Stack Front-end : React, SASS, JSON-Server, Axios, EmailJS.",
-            "Langages : Javascript ES6+, JSON, SASS, CSS3, HTML5.",
-            "Font Icon : Font-Awesome",
-            "Méthode de développement : Mobile-first.",
-            "Logiciels employés : Visual Studio Code, Photoshop.",
-            "Skills développées : Rigueur et sens de la logique."
-        ],        
-        "links": {
-            "project" : {
-                "url" : "https://laurentdubosq.com",
-                "title" : "laurentdubosq.com"
-            },
-            "repository" : {
-                "url" : "https://github.com/LaurentDubosq/laurentdubosq",
-                "title" : "github.com/LaurentDubosq/laurentdubosq"
-            }
-        }
-    },
-    {
-        "companyAcronym" : "dkt",
-        "logo" : {
-            "url" : "https://www.laurentdubosq.com/img/decathlon-logo.svg",
-            "alt" : "Logo Decathlon"
-        },
-        "job": "Développeur Front-End Svelte.js",
-        "duration": "2022-2023 (4 mois - Belgique)",
-        "tasks" : [
-            "Mise en place de features et AB tests, refactorisation, corrections de bugs avec la librairie Svelte.js pour les sites Belgique et Luxembourg afin d’améliorer les parcours utilisateurs.",
-            "Features développées : Menu-Aim (+ écriture JS-Doc), Filtres additionnels, Extra Search Suggestion (en AB test), Positionnements multiples CTA “Add to Cart” sur mobile (AB test).",
-            "User stories classqiues : remplacement logo, débogage datepicker, débogage tracking google analytics, amélioration UX lors de la sélection d’une taille unique, etc.",
-            "Refactorisation : des CSS de la galerie d’images des pages produits.",
-            "Stack Front-end : Svelte.js, Webpack, LESS, ESLint, Prettier, etc.",
-            "Langages : Javascript ES6+, JSON, LESS, Tailwind, CSS3, HTML5.",
-            "Design System : Vitamin.",
-            "Méthode de développement : Mobile-first.",
-            "Principes de développement : DRY, KISS, YAGNI, SOLID, Clean Code.",
-            "Méthodologies : Scrum, CI/CD, code reviews, tests manuels.",
-            "CMS & Solutions : Strapi, Phrase.",
-            "Outils collaboratifs : Jira, Slack, Confluence, GitHub, Figma.",
-            "Infrastructure : AWS, GCP, Azure, Oracle, Docker, Kubernetes, Git, GitHub Actions.",
-            "Logiciels employés : Visual Studio Code.",
-            "Système d’exploitation utilisé pour le développement : Mac OSX.",
-            "Skills développées : Adaptation à un environnement logiciel parfois complexe, capacité à se concentrer en travail en Open Space"
-        ],
-        "links": {
-            "project" : {
-                "url" : "https://decathlon.be",
-                "title" : "decathlon.be"
-            }
-        }
-    },
-    {
-        "companyAcronym" : "awk",
-        "logo" : {
-            "url" : "https://www.laurentdubosq.com/img/awakning-logo-white.png",
-            "alt" : "Logo Awakning Jewelry"
-        },
-        "job": "Développeur Front-End Vue.js",
-        "duration": "2024",
-        "tasks" : [
-            "Recodage intégrale du Front-end e-commerce précédemment mis en place avec le CMS Shopify en une application Vue.js SPA : choix de la stack, développement des features, développement des tests (unitaire, intégration, composant), déploiement.",
-            "Environnement d’écriture Vue.js : Composition API, SFC, Typescript (Strict), Styles SASS (scoped/unscoped).",
-            "Features développées : Site Header, Site Nav, Site Logo, Burger Menu, Dropdown Menu, etc.",
-            "Stack Front-end : Vue.js, Vite, Vitest, Vue Test Utils, Vue-router, Typescript, Json-Server, Git, SASS, JSDOM, etc.",
-            "Plateforme collaborative : GitHub.",
-            "Langages : Javascript ES6+, JSON, SASS, CSS3, HTML5.",
-            "Convention de nommage CSS : BEM.",
-            "Design system : Polaris (pour les icônes).",
-            "Méthode de développement : Mobile-first.",
-            "Principes de développement : DRY, KISS, YAGNI, SOLID, Clean Code.",
-            "Logiciels employés : Visual Studio Code, Photoshop, Google Doc.",
-            "Méthodologies : tests unitaires, tests intégration, tests composant, tests end-to-end."
-        ],         
-        "links": {
-            "project" : {
-                "url" : "https://www.awakningjewelry.com/",
-                "title" : "awakningjewelry.com"
-            },
-            "repository" : {
-                "url" : "https://github.com/LaurentDubosq/awakningjewelry",
-                "title" : "github.com/LaurentDubosq/awakningjewelry"
-            }
-        }
+    "job": "Développeur Front-End",
+    "duration": "2010-2017",
+    "tasks": [
+      "Maîtrise des fonctionnalités du <strong>CMS interne de Photobox</strong>: <strong>composant, versioning, channel et déploiement</strong>, construit en <strong>Perl</strong>.",
+      "Collaboration : <strong>Travailler en collaboration avec des équipes pluridisciplinaires</strong> telles que les équipes UX/UI, développeurs externes et chefs de produits, pour livrer des fonctionnalités conformes aux spécifications dans un environnement <strong>Agile</strong> et <strong>Kanban</strong>.",
+      "Développement des sites (<strong>MPA</strong>): Développer et maintenir les sites e-commerce <strong>internationaux</strong> du groupe, intégration et déploiement des parcours utilisateurs tel que landings pages, mini-sites éphémères (Fêtes des mères, Noël, ventes privées occasionnelles), s’ajoutant à des balisages promotionnels, balisages merchandising, à l’aide du <strong>CMS interne</strong> et dans les langages <strong>XHTML</strong>, <strong>CSS2</strong>, Javascript. Travail effectué dans le respect des recommandations du <strong>W3C</strong> et optimisé pour le référencement naturel (<strong>SEO</strong>).",
+      "Tests et débogage : Mettre en œuvre des tests manuels et effectuer le débogage pour garantir la viabilité des sites internet.",
+      "Design System : Rigueur quant à l’intégration dans le <strong>respect du Design System de Photobox</strong>.",
+      "Emailing : <strong>Maîtrise de l’intégration d’emailings</strong> avec <strong>respect des bonnes pratiques</strong> visant à garantir une <strong>compatibilité élevée</strong> dans les logiciels de messagerie, webmails et applications.",
+      "Expertise : <strong>Référent pour le groupe en matière d’intégration d'emailing</strong>.",
+      "Projets : Développement d’un <strong>projet d’automatisation de l’intégration des emailings</strong> promotionnels hebdomadaires, pour les différents sites du groupe."
+    ],
+    "links": {
+      "project": {
+        "url": "https://photobox.fr",
+        "title": "photobox.fr"
+      }
     }
-  ]
+  },
+  {
+    "companyAcronym": "awk",
+    "logo": {
+      "url": "https://www.laurentdubosq.com/img/awakning-logo-white.png",
+      "alt": "Logo Awakning Jewelry"
+    },
+    "job": "Développeur Front-End / Entrepreneur Web",
+    "duration": "2017-2021",
+    "tasks": [
+      "Configuration : Choix du CMS, choix du template, configuration du compte, des fonctionnalités et des plugins.",
+      "Maîtrise des fonctionnalités du CMS : <strong>composants, versioning et de déploiement</strong>.",
+      "Branding/UX/UI : <strong>Conception de la marque</strong> (logo, style guides, packagings), <strong>sourcing images et photos, retouche/montage photos, redesign des templates Shopify</strong> (Page produit, Page A propos) dans le <strong>respect des styles guides et de l’expérience utilisateur (UX)</strong>.",
+      "Copywriting : Rédaction des contenus en anglais destinés à des locuteurs natifs américains puis validations/corrections par une collaboratrice externe (<strong>Fiverr</strong>).",
+      "Développement du site web (<strong>MPA</strong>): Intégration des contenus image et texte, création de fonctionnalités avec le <strong>moteur de template back-end “Liquid”</strong> (similaire à <strong>Twig</strong> en PHP) de Shopify (Cross Selling, Delivery Estimation) et en static (Size Chart, Delivery Informations, Guarantee Informations), création/améliorations de templates à l’aide des langages <strong>HTML5</strong>, <strong>CSS3</strong>, Javascript, dans un environnement <strong>responsive</strong>.",
+      "Conformité : <strong>Mise en conformité</strong> avec le Règlement général sur la protection des données (<strong>RGPD</strong>) et veille de son maintien au fil du temps.",
+      "Tracking : Installation, configuration et monitoring du tracking <strong>Google Analytics</strong> (GA) et <strong>Facebook Pixel</strong>.",
+      "Tests et débogage : Mettre en œuvre des tests manuels et effectuer le débogage pour garantir la viabilité de l’application."
+    ],
+    "links": {
+      "project": {
+        "url": "https://awakningjewelry.com",
+        "title": "awakningjewelry.com"
+      }
+    }
+  },
+  {
+    "companyAcronym": "",
+    "logo": {
+      "url": "",
+      "alt": ""
+    },
+    "job": "Développeur Front-End React.js",
+    "duration": "2022 (2 mois)",
+    "tasks": [
+      "Design : <strong>Sélection</strong> du design en reprenant celui distribué librement par l’agence <strong>CodingNepal</strong>.",
+      "Configuration : Choix de la stack et plugins (<strong>Axios, EmailJS, JSON-Server</strong>), création et configuration du projet (<strong>CRA + Webpack</strong>).",
+      "Développement de l’application <strong>SPA</strong> : Concevoir et maintenir à jour l’application front-end en utilisant <strong>React.js (Functional Component, Hooks, JSX, StrictMode), Javascript, JSON,</strong> SASS, HTML5 et CSS3 dans un <strong>environnement responsive mobile-first</strong>.",
+      "Conception de Composants : Créer des composants permettant de structurer nos éléments UI de façon <strong>simple</strong> et <strong>maintenable</strong>.",
+      "Animation : Développement d’<strong>animation en Javascript</strong>.",
+      "Intégration avec des services Back-end (<strong>JSON-Server</strong>) : Récupération de données par <strong>consommation d’APIs RESTful</strong> avec <strong>Axios</strong>.",
+      "Monitoring : <strong>Mise en place d’un système d’alerte par email informant de l'échec de la récupération de datas distantes (EmailJS)</strong>.",
+      "Performances: Optimiser l’application pour maximiser la vitesse de chargement (optimisation image (<strong>images adaptatives</strong>), <strong>minification code</strong> (<strong>Webpack</strong>), application du principe de développement <strong>DRY</strong> et optimisation pour le référencement naturel (<strong>SEO</strong>).",
+      "Design System : Rigueur quant à l’intégration dans le respect de la charte graphique de <strong>CodingNepal</strong> pour un <strong>rendu fidèle</strong>."
+    ],
+    "links": {
+      "project": {
+        "url": "https://laurentdubosq.com",
+        "title": "laurentdubosq.com"
+      },
+      "repository": {
+        "url": "https://github.com/LaurentDubosq/laurentdubosq",
+        "title": "github.com/LaurentDubosq/laurentdubosq"
+      }
+    }
+  },
+  {
+    "companyAcronym": "dkt",
+    "logo": {
+      "url": "https://www.laurentdubosq.com/img/decathlon-logo.svg",
+      "alt": "Logo Decathlon"
+    },
+    "job": "Développeur Front-End Svelte.js",
+    "duration": "2022-2023 (4 mois - Belgique)",
+    "tasks": [
+      "Développement d'une application <strong>SPA</strong>: Développer et maintenir l'application e-commerce front-end et ses fonctionnalités en utilisant <strong>Svelte.js</strong>, <strong>LESS</strong>, <strong>Tailwind</strong>, <strong>JSON</strong>, HTML5, CSS3 dans un environnement <strong>responsive mobile-first</strong>.",
+      "Amélioration des parcours utilisateurs: Mettre en place des nouvelles fonctionnalités avec <strong>A/B tests, refactorisation</strong> de template.",
+      "Tests et débogage : Mettre en œuvre des tests manuels et effectuer le débogage pour garantir la viabilité de l'application.",
+      "Intégration avec des services Back-end : Récupération de données par <strong>consommation d'APIs RESTful</strong> avec exploitation des données à l'aide de <strong>stores</strong>.",
+      "Design System : Rigueur quant à l'intégration dans le <strong>respect du Design System \"Vitamin\" de Decathlon</strong>.",
+      "Collaboration : <strong>Travailler en collaboration avec des équipes pluridisciplinaires</strong> telles que les équipes UX/UI, développeurs back-end, data et chefs de produits, pour livrer des fonctionnalités conformes aux spécifications dans un environnement agile de type <strong>Scrum</strong>.",
+      "Qualité du Code et Commentaire : Maintenir un code propre et bien commenté (<strong>JS-doc</strong>), en respectant les meilleures pratiques et standards de codage (<strong>DRY, Clean code</strong>) propre au métier en lui-même, <strong>comme aux bonnes pratiques internes à l'entreprise</strong>. Travail en équipe à travers des <strong>code reviews</strong>.",
+      "Contrôle de Version : <strong>Intégration continue (CI)</strong> des modifications apportées vers une plateforme de collaboration (<strong>GitHub Actions</strong>).",
+      "Environnement technique : Adaptation à une <strong>environnement complexe</strong> composé de multiples repositories, de CMS internes et externes (<strong>Strapi</strong>), d'outils externes (<strong>Phrase</strong>), de pipelines <strong>GitHub Actions</strong> propre à l'<strong>intégration continue</strong>."
+    ],
+    "links": {
+      "project": {
+        "url": "https://decathlon.be",
+        "title": "decathlon.be"
+      }
+    }
+  },
+  {
+    "companyAcronym": "awk",
+    "logo": {
+      "url": "https://www.laurentdubosq.com/img/awakning-logo-white.png",
+      "alt": "Logo Awakning Jewelry"
+    },
+    "job": "Développeur Front-End Vue.js",
+    "duration": "2024",
+    "tasks": [
+      "Configuration : Choix de la stack, création et configuration du projet (<strong>Vite</strong>)",
+      "Développement d'une application <strong>SPA</strong> : Concevoir, développer et maintenir l’application front-end et ses fonctionnalités en utilisant Vue.js (<strong>SFC + Composition API</strong>), Javascript/<strong>Typescript</strong>, <strong>JSON</strong>, SASS, HTML5 et CSS3.",
+      "Conception de Composants : Créer des composants réutilisables ainsi que des <strong>composables</strong> pour des utilisations futures, en assurant la cohérence et l’efficacité du développement de l’interface utilisateur, donc un <strong>contexte responsive mobile-first</strong>.",
+      "Intégration avec des services Back-end (<strong>JSON-Server</strong>) : Récupération de données par <strong>consommation d’APIs RESTful<strong>.",
+      "Etat : Gestion de l’état globale par un <strong>Store</strong> construit sur le <strong>design pattern Singleton</strong>.",
+      "Performances: Optimiser l’application pour maximiser la vitesse de chargement (<strong>lazy loading, code splitting, core web vitals, minifying</strong>) et le référencement naturel (<strong>SEO</strong>)",
+      "Accessibilité : Développement dans le respect des règles d’accessibilité et implémentation du balisage conformément aux directives <strong>RGAA, WCAG</strong> et aux patterns <strong>W3C</strong>.",
+      "Tests et Débogage : Mettre en œuvre des <strong>tests unitaires</strong>, des <strong>tests d’intégration</strong> et effectuer le débogage pour assurer une haute qualité de code et d’expérience utilisateur (<strong>Vitest/Jest, Vue Test Utils</strong>) en <strong>manual continuous testing<strong>.",
+      "Design System : Rigueur quant à l’intégration dans le <strong>respect des styles guides, de la charte graphique et du design system</strong> propre au template original, ainsi que de la bibliothèque d'icônes originale (<strong>Polaris</strong>).",
+      "Qualité du Code et Commentaire : Maintenir un code propre et bien commenté, en respectant les meilleures pratiques et les standards de codage (<strong>DRY, KISS, YAGNI, Clean code, SRP</strong> (SOLID))",
+      "Contrôle de Version : Intégration régulière des modifications apportées vers une plateforme de collaboration (<strong>GitHub</strong>)."
+    ],
+    "links": {
+      "project": {
+        "url": "https://www.awakningjewelry.com/",
+        "title": "awakningjewelry.com"
+      },
+      "repository": {
+        "url": "https://github.com/LaurentDubosq/awakningjewelry",
+        "title": "github.com/LaurentDubosq/awakningjewelry"
+      }
+    }
+  }
+]

@@ -22,16 +22,25 @@ const About = () => {
           </picture>
           <div className="text">
             <h3>
-              Évoluer sur des librairies <span className="color-emphased">d'avenir</span>
+              Évoluer sur des librairies{" "}
+              <span className="color-emphased">d'avenir</span>
             </h3>
-            <p>Après 7 années en tant qu'intégrateur web pour le groupe Photobox, puis m’être formé à l’entrepreneuriat à travers la création de la marque <a
+            <p>
+              Après 7 années en tant que développeur front-end et intégrateur
+              emailing pour le groupe Photobox, puis la création d'
+              <a
                 href="https://www.awakningjewelry.com/"
                 target="_blank"
                 className="txt-primary"
                 rel="noreferrer"
               >
                 Awakningjewelry.com
-              </a> et de son site e-commerce, j’ai recentré mon activité professionnelle en revenant à mes débuts, le front-end. Ainsi je peux continuer d’évoluer techniquement en participant au développement de marque/business à travers l'évolution de leurs sites web par l'emploi du langage Javascript et de librairies innovantes telles que Vue.js, Svelte.js ou React.js.
+              </a>
+              , j’ai recentré mon activité professionnelle sur le développement
+              front-end en conservant une activité entrepreneuriale sur mon
+              temps libre. Cela me permet d’évoluer techniquement avec des
+              bibliothèques comme Vue.js, Svelte ou React, tout en développant
+              des compétences dans des domaines connexes.
             </p>
             <div className="cta">
               <a

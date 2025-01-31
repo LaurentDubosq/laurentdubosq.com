@@ -5,11 +5,41 @@ import emailjs from "@emailjs/browser";
 const Skills = () => {
   const [data, setData] = useState([]);
   const form = useRef();
-  const leftColumnCategories = ["libraries", "dependencies", "languages", "preprocessor", "versioning", "internationalization-tools", "collaborative-tools"]
-  const rightColumnCategories = ["sofwares", "cms", "marketing-tools", "methodologies", "css-convention", "principles", "environments", "design-systems", "interest", "language", "certification", "degree"]
+  const leftColumnCategories = [
+    "libraries",
+    "dependencies",
+    "languages",
+    "preprocessor",
+    "versioning",
+    "internationalization-tools",
+    "collaborative-tools",
+    "sofwares",
+  ];
+  const rightColumnCategories = [
+    "cms",
+    "marketing-tools",
+    "methodologies",
+    "css-convention",
+    "api",
+    "a11y",
+    "perfs",
+    "testing",
+    "principles",
+    "environments",
+    "design-systems",
+    "interest",
+    "language",
+    "certification",
+    "degree",
+    "others",
+  ];
 
-  const leftColumnData = data.filter(dataCategory => leftColumnCategories.includes(dataCategory.id))
-  const RighColumnData = data.filter(dataCategory => rightColumnCategories.includes(dataCategory.id))
+  const leftColumnData = data.filter((dataCategory) =>
+    leftColumnCategories.includes(dataCategory.id)
+  );
+  const RighColumnData = data.filter((dataCategory) =>
+    rightColumnCategories.includes(dataCategory.id)
+  );
 
   const sendEmail = () => {
     emailjs
@@ -43,7 +73,7 @@ const Skills = () => {
     })
       .then((res) => res.json())
       .then((data) => {
-        setData(data)
+        setData(data);
       })
       .catch(() => {
         sendEmail();
@@ -60,7 +90,26 @@ const Skills = () => {
           <div className="text">
             <h3>Mes skills et leurs évolutions</h3>
             <p>
-              Mes années dans le web démontrent mon goût pour la création de site web et cette expérience me motive à continuer de développer mes compétences techniques et relationnelles. Lors de ma dernière expérience au sein de Decathlon Belgique, j'ai pu mettre en application et valider mes compétences acquises dans le développement front à l'aide de la librairie Svelte.js, de me familiariser avec un environnement complexe en matière d'outils et d'infrastructure, tout en évoluant hors de ma zone de confort, à l'étranger, où il faut savoir s'adapter à d'autres cultures, voire d'autres langues. Depuis, je continue de me former en front-end et je viens de valider une certification <a href="https://www.laurentdubosq.com/files/certification-vue-level-1-laurent-dubosq.pdf" target="_blank" className="txt-primary" rel="noreferrer">"Vue.js Developer Level 1"</a>. Je reste à l'écoute du marché quant à pouvoir collaborer avec des entreprises qui me permettront de gagner en expérience.
+              Mes années dans le web témoignent de mon goût pour la création de
+              sites web et me motivent à continuer de développer mes compétences
+              techniques et mes soft skills. Depuis l'obtention de la
+              certification{" "}
+              <a
+                href="https://www.laurentdubosq.com/files/certification-vue-level-1-laurent-dubosq.pdf"
+                target="_blank"
+                className="txt-primary"
+                rel="noreferrer"
+              >
+                "Vue.js Developer Level 1"
+              </a>
+              , j'acquiers de l'expérience avec Vue.js et son écosystème, en
+              relevant le défi de recoder AwakningJewelry avec ces technologies.
+              En parallèle, je développe des compétences en accessibilité et en
+              performance, avec pour objectif à plus long terme d’explorer le
+              back-end. Désireux de gagner en expérience, je reste à l’écoute du
+              marché afin de collaborer avec des entreprises qui me permettront
+              de monter en compétences plus rapidement en apprenant de mes
+              pairs.
             </p>
           </div>
 
@@ -72,7 +121,6 @@ const Skills = () => {
             <Gauges data={leftColumnData} />
             <Gauges data={RighColumnData} />
           </div>
-
         </div>
       </section>
       <form ref={form}></form>

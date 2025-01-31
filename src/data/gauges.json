@@ -1,297 +1,342 @@
 [
-   {
-      "title": "Bibliothèques JS & Frameworks JS",
-      "id": "libraries",
-      "skills": [
-         {
-            "title": "Vue.js (+ Certification Officielle Niveau 1)",
-            "level": "75"
-         },
-         {
-            "title": "Nuxt.js",
-            "level": "25"
-         },
-         {
-            "title": "React.js (+ Badge Linkedin)",
-            "level": "65"
-         },
-         {
-            "title": "Svelte.js",
-            "level": "65"
-         }
-      ]
-   },
-   {
-      "title": "Outils / Dépendances",
-      "id": "dependencies",
-      "skills": [
-         {
-            "title": "NPM / Vite / Webpack / Parcel / Babel / etc.",
-            "level": "65"
-         },
-         {
-            "title": "Vue-Router",
-            "level": "45"
-         },
-         {
-            "title": "Vitest / Jest",
-            "level": "50"
-         },
-         {
-            "title": "Vue Test Utils / JSDOM",
-            "level": "50"
-         },
-         {
-            "title": "JSON Server",
-            "level": "70"
-         },
-         {
-            "title": "ESLint, Prettier, Axios, EmailJS",
-            "level": "35"
-         }
-      ]
-   },
-   {
-      "title": "Langages",
-      "id": "languages",
-      "skills": [
-         {
-            "title": "Javascript ES6+",
-            "level": "70"
-         },
-         {
-            "title": "Typescript",
-            "level": "40"
-         },
-         {
-            "title": "JSX",
-            "level": "80"
-         },
-         {
-            "title": "JSON & YAML",
-            "level": "70"
-         },
-         {
-            "title": "CSS3",
-            "level": "75"
-         },
-         {
-            "title": "HTML5",
-            "level": "80"
-         },
-         {
-            "title": "Liquid (Syntaxe similaire à Twig PHP)",
-            "level": "35"
-         }
-      ]
-   },
-   {
-      "title": "Préprocesseur CSS",
-      "id": "preprocessor",
-      "skills": [
-         {
-            "title": "SASS",
-            "level": "75"
-         },
-         {
-            "title": "LESS",
-            "level": "70"
-         },
-         {
-            "title": "Tailwind",
-            "level": "65"
-         }
-      ]
-   },
-   {
-      "title": "Outils de versioning",
-      "id": "versioning",
-      "skills": [
-         {
-            "title": "Git / Git Bash / GitHub / GitFlow",
-            "level": "65"
-         }
-      ]
-   },
-   {
-      "title": "Outil d'Internationalisation ",
-      "id": "internationalization-tools",
-      "skills": [
-         {
-            "title": "Phrase",
-            "level": "70"
-         }
-      ]
-   },
-   {
-      "title": "Outils collaboratifs",
-      "id": "collaborative-tools",
-      "skills": [
-         {
-            "title": "Jira",
-            "level": "65"
-         },
-         {
-            "title": "Slack",
-            "level": "65"
-         },
-         {
-            "title": "Figma",
-            "level": "25"
-         },
-         {
-            "title": "Wrike",
-            "level": "75"
-         }
-      ]
-   },
-   {
-      "title": "Softwares",
-      "id": "sofwares",
-      "skills": [
-         {
-            "title": "Visual Studio Code",
-            "level": "70"
-         },
-         {
-            "title": "Photoshop",
-            "level": "35"
-         },
-         {
-            "title": "Sublime Text 2",
-            "level": "50"
-         }
-      ]
-   },
-   {
-      "title": "CMS",
-      "id": "cms",
-      "skills": [
-         {
-            "title": "Shopify",
-            "level": "70"
-         },
-         {
-            "title": "Strapi",
-            "level": "25"
-         }
-      ]
-   },
-   {
-      "title": "Outils marketing",
-      "id": "marketing-tools",
-      "skills": [
-         {
-            "title": "Adobe Campaign (Neolane)",
-            "level": "25"
-         }
-      ]
-   },
-   {
-      "title": "Méthodologies",
-      "id": "methodologies",
-      "skills": [
-         {
-            "title": "Scrum",
-            "level": "65"
-         },
-         {
-            "title": "Kanban",
-            "level": "70"
-         },
-         {
-            "title": "Code Review",
-            "level": "45"
-         }
-      ]
-   },
-   {
-      "title": "Convention de nommage CSS",
-      "id": "css-convention",
-      "skills": [
-         {
-            "title": "BEM",
-            "level": "75"
-         },
-         {
-            "title": "Tailwind",
-            "level": "65"
-         }
-      ]
-   },
-   {
-      "title": "Principes de développement",
-      "id": "principles",
-      "skills": [
-         {
-            "title": "Principes DRY, KISS, YAGNI, SOLID, Clean Code, SEO"
-         }
-      ]
-   },
-   {
-      "title": "Environnements",
-      "id": "environments",
-      "skills": [
-         {
-            "title": "AWS, GCP, Azure, Oracle, Docker, Kubernetes, Git, GitHub Actions (CI/CD)"
-         }
-      ]
-   },
-   {
-      "title": "Design Systems",
-      "id": "design-systems",
-      "skills": [
-         {
-            "title": "Vitamin, Polaris"
-         }
-      ]
-   },
-   {
-      "title": "Intérêts",
-      "id": "interest",
-      "skills": [
-         {
-            "title": "SPA/SSR/SSG/SWR/ISR, Server-Only Components, Accessibilité, Optimisations Performances"
-         }
-      ]
-   },
-   {
-      "title": "Langues",
-      "id": "language",
-      "skills": [
-         {
-            "title": "Anglais B1/B2"
-         }
-      ]
-   },
-   {
-      "title": "Mes certifications et badges",
-      "id": "certification",
-      "skills": [
-         {
-            "title": "Vue.js Developer Level 1 - Certification Officielle - 2024",
-            "titleLink" : "https://www.linkedin.com/in/laurent-dubosq-67b8a913a/",
-            "details": "Vue School",
-            "detailsLink": "https://certificates.dev/vuejs"
-         },
-         {
-            "title": "React Linkedin Badge - 2022",
-            "titleLink" : "https://www.linkedin.com/in/laurent-dubosq-67b8a913a/",
-            "details": "Linkedin",
-            "detailsLink": "https://www.linkedin.com/"
-         }
-      ]
-   },
-   {
-      "title": "Mon diplôme",
-      "id": "degree",
-      "skills": [
-         {
-            "title": "Développeur d'Application Multimédia (BAC +2) - 2009",
-            "titleLink": "https://www.linkedin.com/in/laurent-dubosq-67b8a913a/",
-            "details": "Centre de formation Doranco - Paris",
-            "detailsLink": "https://www.doranco.fr/"
-         }
-      ]
-   }
+  {
+    "title": "Bibliothèques JS & Frameworks JS",
+    "id": "libraries",
+    "skills": [
+      {
+        "title": "Vue.js (+ Certification Officielle Niveau 1)",
+        "level": "75"
+      },
+      {
+        "title": "Nuxt.js",
+        "level": "25"
+      },
+      {
+        "title": "React.js",
+        "level": "65"
+      },
+      {
+        "title": "Svelte.js",
+        "level": "65"
+      }
+    ]
+  },
+  {
+    "title": "Outils / Dépendances",
+    "id": "dependencies",
+    "skills": [
+      {
+        "title": "NPM / Vite / Webpack / Parcel / Babel / etc.",
+        "level": "65"
+      },
+      {
+        "title": "Vue-Router",
+        "level": "45"
+      },
+      {
+        "title": "Vitest / Jest",
+        "level": "50"
+      },
+      {
+        "title": "Vue Test Utils / JSDOM",
+        "level": "50"
+      },
+      {
+        "title": "JSON Server",
+        "level": "70"
+      },
+      {
+        "title": "ESLint, Prettier, Axios, EmailJS",
+        "level": "35"
+      }
+    ]
+  },
+  {
+    "title": "Langages",
+    "id": "languages",
+    "skills": [
+      {
+        "title": "Javascript ES6+",
+        "level": "70"
+      },
+      {
+        "title": "Typescript",
+        "level": "40"
+      },
+      {
+        "title": "JSX",
+        "level": "80"
+      },
+      {
+        "title": "JSON & YAML",
+        "level": "70"
+      },
+      {
+        "title": "CSS3",
+        "level": "75"
+      },
+      {
+        "title": "HTML5",
+        "level": "80"
+      },
+      {
+        "title": "Liquid (Syntaxe similaire à Twig PHP)",
+        "level": "35"
+      }
+    ]
+  },
+  {
+    "title": "Préprocesseur CSS",
+    "id": "preprocessor",
+    "skills": [
+      {
+        "title": "SASS",
+        "level": "75"
+      },
+      {
+        "title": "LESS",
+        "level": "70"
+      },
+      {
+        "title": "Tailwind",
+        "level": "65"
+      }
+    ]
+  },
+  {
+    "title": "Outils de versioning",
+    "id": "versioning",
+    "skills": [
+      {
+        "title": "Git / Git Bash / GitHub / GitFlow",
+        "level": "65"
+      }
+    ]
+  },
+  {
+    "title": "Outil d'Internationalisation ",
+    "id": "internationalization-tools",
+    "skills": [
+      {
+        "title": "Phrase",
+        "level": "70"
+      }
+    ]
+  },
+  {
+    "title": "Outils collaboratifs",
+    "id": "collaborative-tools",
+    "skills": [
+      {
+        "title": "Jira",
+        "level": "65"
+      },
+      {
+        "title": "Slack",
+        "level": "65"
+      },
+      {
+        "title": "Figma",
+        "level": "25"
+      },
+      {
+        "title": "Wrike",
+        "level": "75"
+      }
+    ]
+  },
+  {
+    "title": "Softwares",
+    "id": "sofwares",
+    "skills": [
+      {
+        "title": "Visual Studio Code",
+        "level": "70"
+      },
+      {
+        "title": "Photoshop",
+        "level": "35"
+      },
+      {
+        "title": "Sublime Text 2",
+        "level": "50"
+      }
+    ]
+  },
+  {
+    "title": "CMS",
+    "id": "cms",
+    "skills": [
+      {
+        "title": "Shopify",
+        "level": "70"
+      },
+      {
+        "title": "Strapi",
+        "level": "25"
+      }
+    ]
+  },
+  {
+    "title": "Outils marketing",
+    "id": "marketing-tools",
+    "skills": [
+      {
+        "title": "Adobe Campaign (Neolane)",
+        "level": "25"
+      }
+    ]
+  },
+  {
+    "title": "Méthodologies",
+    "id": "methodologies",
+    "skills": [
+      {
+        "title": "Scrum",
+        "level": "65"
+      },
+      {
+        "title": "Kanban",
+        "level": "70"
+      },
+      {
+        "title": "Code Review",
+        "level": "45"
+      }
+    ]
+  },
+  {
+    "title": "Convention de nommage CSS",
+    "id": "css-convention",
+    "skills": [
+      {
+        "title": "BEM",
+        "level": "75"
+      },
+      {
+        "title": "Tailwind",
+        "level": "65"
+      }
+    ]
+  },
+  {
+    "title": "Consommation API",
+    "id": "api",
+    "skills": [
+      {
+        "title": "RESTful"
+      }
+    ]
+  },
+  {
+    "title": "Accessibilité",
+    "id": "a11y",
+    "skills": [
+      {
+        "title": "Directives RGAA & WCAG, Patterns W3C"
+      }
+    ]
+  },
+  {
+    "title": "Performance",
+    "id": "perfs",
+    "skills": [
+      {
+        "title": "Lazy loading, Code splitting, Core web vitals, Minifying, Images adaptatives"
+      }
+    ]
+  },
+  {
+    "title": "Testing",
+    "id": "testing",
+    "skills": [
+      {
+        "title": "Tests de composants : Unitaire, Intégration"
+      }
+    ]
+  },
+  {
+    "title": "Principes de développement",
+    "id": "principles",
+    "skills": [
+      {
+        "title": "Principes DRY, KISS, YAGNI, Clean Code, SRP (SOLID), SEO"
+      }
+    ]
+  },
+  {
+    "title": "Environnements",
+    "id": "environments",
+    "skills": [
+      {
+        "title": "AWS, GCP, Azure, Oracle, Docker, Kubernetes, Git, GitHub Actions (CI/CD)"
+      }
+    ]
+  },
+  {
+    "title": "Design Systems",
+    "id": "design-systems",
+    "skills": [
+      {
+        "title": "Vitamin, Polaris Icons, Material Symbols"
+      }
+    ]
+  },
+  {
+    "title": "Intérêts",
+    "id": "interest",
+    "skills": [
+      {
+        "title": "SPA/SSR/SSG/SWR/ISR, Server-Only Components, Design Patterns"
+      }
+    ]
+  },
+  {
+    "title": "Langues",
+    "id": "language",
+    "skills": [
+      {
+        "title": "Anglais B1/B2"
+      }
+    ]
+  },
+  {
+    "title": "Mes certifications et badges",
+    "id": "certification",
+    "skills": [
+      {
+        "title": "Vue.js Developer Level 1 - Certification Officielle - 2024",
+        "titleLink": "https://www.linkedin.com/in/laurent-dubosq-67b8a913a/",
+        "details": "Vue School",
+        "detailsLink": "https://certificates.dev/vuejs"
+      },
+      {
+        "title": "React Linkedin Badge - 2022",
+        "titleLink": "https://www.linkedin.com/in/laurent-dubosq-67b8a913a/",
+        "details": "Linkedin",
+        "detailsLink": "https://www.linkedin.com/"
+      }
+    ]
+  },
+  {
+    "title": "Mon diplôme",
+    "id": "degree",
+    "skills": [
+      {
+        "title": "Développeur d'Application Multimédia (BAC +2) - 2009",
+        "titleLink": "https://www.linkedin.com/in/laurent-dubosq-67b8a913a/",
+        "details": "Centre de formation Doranco - Paris",
+        "detailsLink": "https://www.doranco.fr/"
+      }
+    ]
+  },
+  {
+    "title": "Autres compétences",
+    "id": "others",
+    "skills": [
+      {
+        "title": "UX/UI, Entrepreneuriat, E-commerce"
+      }
+    ]
+  }
 ]

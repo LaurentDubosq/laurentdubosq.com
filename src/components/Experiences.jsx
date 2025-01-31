@@ -1,6 +1,7 @@
 import Logo from "../layout/Logo";
 import { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import DOMPurify from "dompurify";
 
 const Experiences = () => {
   const [experiences, setExperiences] = useState([]);
@@ -70,10 +71,17 @@ const Experiences = () => {
                   <h4>{experience.duration}</h4>
                   <ul className="list">
                     {experience.tasks.map((task, index) => {
-                      return <li key={index}>{task}</li>;
+                      return (
+                        <li
+                          key={index}
+                          dangerouslySetInnerHTML={{
+                            __html: DOMPurify.sanitize(task),
+                          }}
+                        ></li>
+                      );
                     })}
                   </ul>
-                  
+
                   {experience.links.repository && (
                     <a
                       href={experience.links.repository.url}
@@ -81,7 +89,10 @@ const Experiences = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Repository : <span style={{wordBreak: "break-all"}}>{experience.links.repository.title}</span>
+                      Repository :{" "}
+                      <span style={{ wordBreak: "break-all" }}>
+                        {experience.links.repository.title}
+                      </span>
                     </a>
                   )}
 
@@ -92,7 +103,10 @@ const Experiences = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Website : <span style={{wordBreak: "break-all"}}>{experience.links.project.title}</span>
+                      Website :{" "}
+                      <span style={{ wordBreak: "break-all" }}>
+                        {experience.links.project.title}
+                      </span>
                     </a>
                   )}
                 </li>
